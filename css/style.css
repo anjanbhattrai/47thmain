@@ -25,20 +25,6 @@ ul, ol {
 	padding-bottom: 100px;
 }
 
-/* buttons */
-
-.btn-primary {
-	display: inline-block;
-	font-size: 13px;
-	font-weight: 700;
-	text-transform: uppercase;
-	padding: 14px 30px;
-	color: #ffffff;
-	background: #000000;
-	border:none; 
-	letter-spacing: 4px;
-}
-
 /* Preloder */
 
 #preloder {
@@ -362,7 +348,39 @@ ul, ol {
 	background-size: cover;
 }
 
-/* 4 sections card  */
+/*cards  */
+
+.card {
+	border-radius: 4px;
+	background: #fff;
+	box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+	transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+	cursor: pointer;
+}
+
+.card:hover {
+	transform: scale(1.05);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+.card.card-wholesaler h4 {
+	/* font-weight: 600; */
+	letter-spacing: 1px;
+}
+
+.card.card-wholesaler img {
+	position: absolute;
+	top: 20px;
+	right: 15px;
+	max-height: 120px;
+}
+
+.card.card-wholesaler {
+	background: #fafafa url(https://ionicframework.com/img/getting-started/ionic-native-card.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 80px;
+}
 
 /*---------------------
   Product
@@ -1867,13 +1885,6 @@ ul, ol {
 	font-weight: 700;
 	color: #e53637;
 	float: right;
-}
-
-.cart__total .primary-btn {
-	display: block;
-	padding: 12px 10px;
-	text-align: center;
-	letter-spacing: 2px;
 }
 
 /*---------------------

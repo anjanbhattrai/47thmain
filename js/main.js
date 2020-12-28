@@ -8,18 +8,6 @@
     $(window).on('load', function () {
         $(".loader").fadeOut();
         $("#preloder").delay(200).fadeOut("slow");
-
-        /*------------------
-            Gallery filter
-        --------------------*/
-        $('.filter__controls li').on('click', function () {
-            $('.filter__controls li').removeClass('active');
-            $(this).addClass('active');
-        });
-        if ($('.product__filter').length > 0) {
-            var containerEl = document.querySelector('.product__filter');
-            var mixer = mixitup(containerEl);
-        }
     });
 
     //Search Switch
@@ -34,8 +22,8 @@
     });
 
     /*------------------
-		Navigation
-	--------------------*/
+        Navigation
+    --------------------*/
     $(".responsive-menu").slicknav({
         prependTo: '#responsive-menu-wrap',
         allowParentLinks: true
@@ -69,16 +57,16 @@
     $("select").niceSelect();
 
     /*-------------------
-		Radio Btn
-	--------------------- */
+        Radio Btn
+    --------------------- */
     $(".product__color__select label, .shop__sidebar__size label, .product__details__option__size label").on('click', function () {
         $(".product__color__select label, .shop__sidebar__size label, .product__details__option__size label").removeClass('active');
         $(this).addClass('active');
     });
 
     /*-------------------
-		Scroll
-	--------------------- */
+        Scroll
+    --------------------- */
     $(".nice-scroll").niceScroll({
         cursorcolor: "#0d0d0d",
         cursorwidth: "5px",
@@ -89,15 +77,15 @@
     });
 
     /*------------------
-		Magnific
-	--------------------*/
+        Magnific
+    --------------------*/
     $('.video-popup').magnificPopup({
         type: 'iframe'
     });
 
     /*-------------------
-		Quantity change
-	--------------------- */
+        Quantity change
+    --------------------- */
     var proQty = $('.pro-qty');
     proQty.prepend('<span class="fa fa-angle-up dec qtybtn"></span>');
     proQty.append('<span class="fa fa-angle-down inc qtybtn"></span>');
