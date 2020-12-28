@@ -31,11 +31,11 @@
     <div class="offcanvas-menu-overlay"></div>
     <div class="offcanvas-menu-wrapper">
 
-        <div class="offcanvas__nav__option">
+        <!-- <div class="offcanvas__nav__option">
             <a class="search-switch text-dark" href="#"><i class="fas fa-search"></i></a>
             <a class="text-dark" href="#"><i class="fas fa-cart-plus"></i> <span
                     class="badge badge-pill badge-danger">3</span></a>
-        </div>
+        </div> -->
         <div id="responsive-menu-wrap"></div>
         <hr />
         <div class="offcanvas__links">
@@ -83,6 +83,15 @@
                         </ul>
 
                         <ul class="navbar-nav ml-auto my-2 my-lg-0">
+
+                            <li class="nav-item">
+                                <div class="sidebar-search mb-0 mr-2">
+                                    <form action="#">
+                                        <input type="text" placeholder="Search...">
+                                        <button type="submit"><i class="fas fa-search"></i></button>
+                                    </form>
+                                </div>
+                            </li>
 
                             <li class="nav-item cart-dropdown dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
@@ -1253,11 +1262,15 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="hide-collapse"><a class="search-switch color-dark" href="#"><i
-                                        class="fas fa-search"></i></a></li>
+                            <!-- <li class="hide-collapse"><a class="search-switch text-dark" href="#"><i
+                                        class="fas fa-search"></i></a></li> -->
                         </ul>
                     </nav>
                 </div>
+            </div>
+            <div class="mobile-search">
+                <a class="search-switch text-dark" href="#"><i
+                    class="fas fa-search"></i></a>
             </div>
             <div class="mobile-cart">
                 <div class="nav-item cart-dropdown dropdown">
