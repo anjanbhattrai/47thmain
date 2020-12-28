@@ -412,7 +412,7 @@ ul, ol {
 	display: none;
 }
 
-.canvas__open {
+.canvas__open,.mobile-cart {
 	display: none;
 }
 
@@ -3396,6 +3396,18 @@ ul, ol {
 		right: 15px;
 		top: 25px;
 	}
+
+	.mobile-cart {
+		display: block;
+		color: #111111;
+		height: 45px;
+		border-radius: 2px;
+		cursor: pointer;
+		position: absolute;
+		right: 70px;
+		top: 25px;
+	}
+
 	.offcanvas-menu-overlay {
 		position: fixed;
 		left: 0;
