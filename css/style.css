@@ -480,19 +480,19 @@ ul, ol {
   Shop
 -----------------------*/
 
-.shop__sidebar {
+.shop-sidebar {
 	padding-right: 20px;
 }
 
-.shop__sidebar__search {
+.shop-sidebar__search {
 	margin-bottom: 45px;
 }
 
-.shop__sidebar__search form {
+.shop-sidebar__search form {
 	position: relative;
 }
 
-.shop__sidebar__search form input {
+.shop-sidebar__search form input {
 	width: 100%;
 	font-size: 15px;
 	color: #b7b7b7;
@@ -501,27 +501,27 @@ ul, ol {
 	height: 42px;
 }
 
-.shop__sidebar__search form input::-webkit-input-placeholder {
+.shop-sidebar__search form input::-webkit-input-placeholder {
 	color: #b7b7b7;
 }
 
-.shop__sidebar__search form input::-moz-placeholder {
+.shop-sidebar__search form input::-moz-placeholder {
 	color: #b7b7b7;
 }
 
-.shop__sidebar__search form input:-ms-input-placeholder {
+.shop-sidebar__search form input:-ms-input-placeholder {
 	color: #b7b7b7;
 }
 
-.shop__sidebar__search form input::-ms-input-placeholder {
+.shop-sidebar__search form input::-ms-input-placeholder {
 	color: #b7b7b7;
 }
 
-.shop__sidebar__search form input::placeholder {
+.shop-sidebar__search form input::placeholder {
 	color: #b7b7b7;
 }
 
-.shop__sidebar__search form button {
+.shop-sidebar__search form button {
 	color: #b7b7b7;
 	font-size: 15px;
 	border: none;
@@ -533,33 +533,33 @@ ul, ol {
 	height: 100%;
 }
 
-.shop__sidebar__accordion .card {
+.shop-sidebar__accordion .card {
 	border: none;
 	border-radius: 0;
 	margin-bottom: 25px;
 }
 
-.shop__sidebar__accordion .card:last-child {
+.shop-sidebar__accordion .card:last-child {
 	margin-bottom: 0;
 }
 
-.shop__sidebar__accordion .card:last-child .card-body {
+.shop-sidebar__accordion .card:last-child .card-body {
 	padding-bottom: 0;
 	border-bottom: none;
 }
 
-.shop__sidebar__accordion .card-body {
+.shop-sidebar__accordion .card-body {
 	padding: 0;
 	padding-top: 10px;
 	padding-bottom: 20px;
 	border-bottom: 1px solid #e5e5e5;
 }
 
-.shop__sidebar__accordion .card-heading {
+.shop-sidebar__accordion .card-heading {
 	cursor: pointer;
 }
 
-.shop__sidebar__accordion .card-heading a {
+.shop-sidebar__accordion .card-heading a {
 	color: #111111;
 	font-size: 16px;
 	font-weight: 700;
@@ -567,15 +567,15 @@ ul, ol {
 	display: block;
 }
 
-.shop__sidebar__categories ul, .shop__sidebar__price ul, .shop__sidebar__brand ul {
+.shop-sidebar__categories ul, .shop-sidebar__price ul, .shop-sidebar__brand ul {
 	height: 225px;
 }
 
-.shop__sidebar__categories ul li, .shop__sidebar__price ul li, .shop__sidebar__brand ul li {
+.shop-sidebar__categories ul li, .shop-sidebar__price ul li, .shop-sidebar__brand ul li {
 	list-style: none;
 }
 
-.shop__sidebar__categories ul li a, .shop__sidebar__price ul li a, .shop__sidebar__brand ul li a {
+.shop-sidebar__categories ul li a, .shop-sidebar__price ul li a, .shop-sidebar__brand ul li a {
 	color: #b7b7b7;
 	font-size: 15px;
 	line-height: 32px;
@@ -584,23 +584,23 @@ ul, ol {
 	transition: all, 0.3s;
 }
 
-.shop__sidebar__categories ul li a:hover, .shop__sidebar__price ul li a:hover, .shop__sidebar__brand ul li a:hover {
+.shop-sidebar__categories ul li a:hover, .shop-sidebar__price ul li a:hover, .shop-sidebar__brand ul li a:hover {
 	color: #111111;
 }
 
-.shop__sidebar__brand ul {
+.shop-sidebar__brand ul {
 	height: auto;
 }
 
-.shop__sidebar__price ul {
+.shop-sidebar__price ul {
 	height: auto;
 }
 
-.shop__sidebar__size {
+.shop-sidebar__size {
 	padding-top: 15px;
 }
 
-.shop__sidebar__size label {
+.shop-sidebar__size label {
 	color: #111111;
 	font-size: 15px;
 	font-weight: 700;
@@ -613,22 +613,22 @@ ul, ol {
 	cursor: pointer;
 }
 
-.shop__sidebar__size label.active {
+.shop-sidebar__size label.active {
 	background: #111111;
 	color: #ffffff;
 	border-color: #111111;
 }
 
-.shop__sidebar__size label input {
+.shop-sidebar__size label input {
 	position: absolute;
 	visibility: hidden;
 }
 
-.shop__sidebar__color {
+.shop-sidebar__color {
 	padding-top: 15px;
 }
 
-.shop__sidebar__color label {
+.shop-sidebar__color label {
 	height: 30px;
 	width: 30px;
 	border-radius: 50%;
@@ -639,43 +639,43 @@ ul, ol {
 	cursor: pointer;
 }
 
-.shop__sidebar__color label.c-1 {
+.shop-sidebar__color label.c-1 {
 	background: #0b090c;
 }
 
-.shop__sidebar__color label.c-2 {
+.shop-sidebar__color label.c-2 {
 	background: #20315f;
 }
 
-.shop__sidebar__color label.c-3 {
+.shop-sidebar__color label.c-3 {
 	background: #f1af4d;
 }
 
-.shop__sidebar__color label.c-4 {
+.shop-sidebar__color label.c-4 {
 	background: #636068;
 }
 
-.shop__sidebar__color label.c-5 {
+.shop-sidebar__color label.c-5 {
 	background: #57594d;
 }
 
-.shop__sidebar__color label.c-6 {
+.shop-sidebar__color label.c-6 {
 	background: #e8bac4;
 }
 
-.shop__sidebar__color label.c-7 {
+.shop-sidebar__color label.c-7 {
 	background: #d6c1d7;
 }
 
-.shop__sidebar__color label.c-8 {
+.shop-sidebar__color label.c-8 {
 	background: #ed1c24;
 }
 
-.shop__sidebar__color label.c-9 {
+.shop-sidebar__color label.c-9 {
 	background: #ffffff;
 }
 
-.shop__sidebar__color label:after {
+.shop-sidebar__color label:after {
 	position: absolute;
 	left: -3px;
 	top: -3px;
@@ -686,16 +686,16 @@ ul, ol {
 	border-radius: 50%;
 }
 
-.shop__sidebar__color label input {
+.shop-sidebar__color label input {
 	position: absolute;
 	visibility: hidden;
 }
 
-.shop__sidebar__tags {
+.shop-sidebar__tags {
 	padding-top: 15px;
 }
 
-.shop__sidebar__tags a {
+.shop-sidebar__tags a {
 	color: #404040;
 	font-size: 13px;
 	font-weight: 700;
@@ -710,12 +710,12 @@ ul, ol {
 	transition: all, 0.3s;
 }
 
-.shop__sidebar__tags a:hover {
+.shop-sidebar__tags a:hover {
 	background: #111111;
 	color: #ffffff;
 }
 
-.shop__sidebar__accordion .card-heading a:after, .shop__sidebar__accordion .card-heading>a.active[aria-expanded=false]:after {
+.shop-sidebar__accordion .card-heading a:after, .shop-sidebar__accordion .card-heading>a.active[aria-expanded=false]:after {
 	content: "";
 	font-family: "FontAwesome";
 	font-size: 24px;
@@ -727,7 +727,7 @@ ul, ol {
 	line-height: 20px;
 }
 
-.shop__sidebar__accordion .card-heading.active a:after {
+.shop-sidebar__accordion .card-heading.active a:after {
 	content: "";
 	font-family: "FontAwesome";
 	font-size: 24px;
@@ -1309,222 +1309,25 @@ ul, ol {
   Breadcrumb
 -----------------------*/
 
-.breadcrumb-option {
-	background: #f3f2ee;
-	padding: 40px 0;
-}
-
-.breadcrumb__text h4 {
-	color: #111111;
-	font-weight: 700;
-	margin-bottom: 8px;
-}
-
-.breadcrumb__links a {
-	font-size: 15px;
-	color: #111111;
+.breadcrumb-links a {
+	font-size: 13px;
+	color: #fff;
 	margin-right: 18px;
 	display: inline-block;
 	position: relative;
 }
 
-.breadcrumb__links a:after {
+.breadcrumb-links a:after {
 	position: absolute;
 	right: -14px;
 	top: 0;
-	content: "";
-	font-family: "FontAwesome";
+	content: ">";
 }
 
-.breadcrumb__links span {
-	font-size: 15px;
+.breadcrumb-links span {
+	font-size: 13px;
 	color: #b7b7b7;
 	display: inline-block;
-}
-
-/*---------------------
-  About
------------------------*/
-
-.about {
-	padding-bottom: 70px;
-}
-
-.about__pic {
-	margin-bottom: 35px;
-}
-
-.about__pic img {
-	min-width: 100%;
-}
-
-.about__item {
-	margin-bottom: 30px;
-}
-
-.about__item h4 {
-	color: #111111;
-	font-weight: 700;
-	margin-bottom: 10px;
-}
-
-.about__item p {
-	margin-bottom: 0;
-}
-
-/*---------------------
-  Testimonial
------------------------*/
-
-.testimonial {
-	background: #f3f2ee;
-}
-
-.testimonial__text {
-	text-align: center;
-	padding: 130px 150px 175px;
-}
-
-.testimonial__text span {
-	color: #e53637;
-	font-size: 72px;
-}
-
-.testimonial__text p {
-	color: #111111;
-	font-size: 20px;
-	font-style: italic;
-	line-height: 30px;
-	padding-top: 12px;
-	margin-bottom: 25px;
-}
-
-.testimonial__author {
-	display: inline-block;
-}
-
-.testimonial__author__pic {
-	float: left;
-	margin-right: 20px;
-}
-
-.testimonial__author__pic img {
-	height: 60px;
-	width: 60px;
-	border-radius: 50%;
-}
-
-.testimonial__author__text {
-	overflow: hidden;
-	padding-top: 3px;
-}
-
-.testimonial__author__text h5 {
-	color: #111111;
-	font-weight: 700;
-	margin-bottom: 5px;
-}
-
-.testimonial__author__text p {
-	color: #b7b7b7;
-	margin-bottom: 0 !important;
-	padding-top: 0;
-}
-
-.testimonial__pic {
-	height: 600px;
-}
-
-/*---------------------
-  Counter
------------------------*/
-
-.counter {
-	padding-bottom: 0;
-}
-
-.counter .container {
-	border-bottom: 1px solid #e5e5e5;
-	padding-bottom: 70px;
-}
-
-.counter__item {
-	margin-bottom: 30px;
-	overflow: hidden;
-}
-
-.counter__item .counter__item__number {
-	float: left;
-	margin-right: 15px;
-}
-
-.counter__item .counter__item__number h2 {
-	color: #111111;
-	font-weight: 700;
-	font-size: 60px;
-	line-height: 50px;
-	display: inline-block;
-}
-
-.counter__item .counter__item__number strong {
-	color: #111111;
-	font-weight: 700;
-	font-size: 60px;
-	line-height: 50px;
-	display: inline-block;
-}
-
-.counter__item span {
-	display: block;
-	color: #3d3d3d;
-	font-size: 18px;
-	font-weight: 700;
-	line-height: 25px;
-	overflow: hidden;
-}
-
-/*---------------------
-  Testimonial
------------------------*/
-
-.team {
-	padding-bottom: 70px;
-}
-
-.team__item {
-	margin-bottom: 30px;
-}
-
-.team__item img {
-	min-width: 100%;
-	margin-bottom: 25px;
-}
-
-.team__item h4 {
-	color: #111111;
-	font-weight: 700;
-	margin-bottom: 8px;
-}
-
-.team__item span {
-	font-size: 15px;
-	display: block;
-	color: #b7b7b7;
-}
-
-/*---------------------
-  Clients
------------------------*/
-
-.clients {
-	padding-top: 0;
-	padding-bottom: 25px;
-}
-
-.client__item {
-	display: block;
-	margin-bottom: 75px;
-	text-align: center;
 }
 
 /*---------------------
@@ -2009,7 +1812,7 @@ ul, ol {
 	.instagram__text {
 		padding-top: 70px;
 	}
-	.shop__sidebar {
+	.shop-sidebar {
 		padding-right: 0;
 		padding-top: 40px;
 	}
@@ -2227,7 +2030,7 @@ ul, ol {
 		text-align: left;
 		padding-top: 20px;
 	}
-	.shop__sidebar {
+	.shop-sidebar {
 		padding-right: 0;
 		margin-bottom: 40px;
 	}
