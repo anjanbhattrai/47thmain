@@ -36,29 +36,34 @@
     <!-- Offcanvas Menu Begin -->
     <div class="offcanvas-menu-overlay"></div>
     <div class="offcanvas-menu-wrapper">
-        <div class="offcanvas__option">
-            <div class="offcanvas__links">
-                <a href="#">Sign in</a>
-                <a href="#">FAQs</a>
-            </div>
-            <div class="offcanvas__top__hover">
-                <span>Usd <i class="arrow_carrot-down"></i></span>
-                <ul>
-                    <li>USD</li>
-                    <li>EUR</li>
-                    <li>USD</li>
-                </ul>
-            </div>
-        </div>
+
         <div class="offcanvas__nav__option">
-            <a href="#" class="search-switch"><img src="img/icon/search.png" alt=""></a>
-            <a href="#"><img src="img/icon/heart.png" alt=""></a>
-            <a href="#"><img src="img/icon/cart.png" alt=""> <span>0</span></a>
-            <div class="price">$0.00</div>
+            <a class="search-switch" href="#"><img src="img/icon/search.png" alt=""></a>
+            <a class="text-dark" href="#"><i class="fas fa-cart-plus"></i> <span class="badge badge-pill badge-danger">3</span></a>
         </div>
         <div id="mobile-menu-wrap"></div>
-        <div class="offcanvas__text">
-            <p>Free shipping, 30-day return or refund guarantee.</p>
+        <hr />
+        <div class="offcanvas__links">
+            <ul>
+                <li>
+                    <a href="#">Order status</a>
+                </li>
+                <li>
+                    <a href="#">Catalog request</a>
+                </li>
+                <li>
+                    <a href="#">Become a wholesaler</a>
+                </li>
+                <li>
+                    <a href="#">Store locator</a>
+                </li>
+                <li>
+                    <a href="#">Help</a>
+                </li>
+                <li>
+                    <a href="#">Wholesale login</a>
+                </li>
+            </ul>
         </div>
     </div>
     <!-- Offcanvas Menu End -->
@@ -66,24 +71,88 @@
     <!-- Header Section Begin -->
     <header class="header">
         <div class="black_top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="black_top__menu">
-                            <ul class="list-inline">
-                                <li class="list-inline-item">ORDER STATUS</li>
-                                <li class="list-inline-item">CATALOG REQUEST</li>
-                                <li class="list-inline-item">BECOME A WHOLESALER</li>
-                                <li class="list-inline-item">STORE LOCATOR</li>
-                                <li class="list-inline-item">HELP</li>
-                                <li class="list-inline-item">WHOLESALER LOGIN</li>
-                                <li class="list-inline-item"><a href="#" class="search-switch"><img src="img/icon/search.png" alt=""></a></li>
-                                <li class="list-inline-item"><a href="#"><img src="img/icon/cart.png" alt=""></a></li>
-                            </ul>
-                        </div>
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="collapse navbar-collapse">
+                    <div class="container">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Order status</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Catalog request</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Become a wholesaler</a>
+                            </li>
+                        </ul>
+
+                        <ul class="navbar-nav ml-auto my-2 my-lg-0">
+
+                            <li class="nav-item cart-dropdown dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-cart-plus"></i>
+                                </a>
+                                <div class="dropdown-menu">
+                                    <div class="row total-header-section">
+                                          <div class="col-lg-6 col-sm-6 col-6">
+                                              <i class="fa fa-shopping-cart" aria-hidden="true"></i> <span class="badge badge-pill badge-danger">3</span>
+                                          </div>
+                                          <div class="col-lg-6 col-sm-6 col-6 total-section text-right">
+                                              <p>Total: <span class="text-info">$2,978.24</span></p>
+                                          </div>
+                                    </div>
+                                    <div class="row cart-detail">
+                                        <div class="col-lg-4 col-sm-4 col-4 cart-detail-img">
+                                            <img src="https://images-na.ssl-images-amazon.com/images/I/811OyrCd5hL._SX425_.jpg">
+                                        </div>
+                                        <div class="col-lg-8 col-sm-8 col-8 cart-detail-product">
+                                            <p>Sony DSC-RX100M..</p>
+                                            <span class="price text-info"> $250.22</span> <span class="count"> Quantity:01</span>
+                                            <div class="cart-del"><a href="#" class="text-danger"><i class="fas fa-trash-alt"></i></a></div>
+                                        </div>
+                                    </div>
+                                    <div class="row cart-detail">
+                                        <div class="col-lg-4 col-sm-4 col-4 cart-detail-img">
+                                            <img src="https://cdn2.gsmarena.com/vv/pics/blu/blu-vivo-48-1.jpg">
+                                        </div>
+                                        <div class="col-lg-8 col-sm-8 col-8 cart-detail-product">
+                                            <p>Vivo DSC-RX100M..</p>
+                                            <span class="price text-info"> $500.40</span> <span class="count"> Quantity:01</span>
+                                            <div class="cart-del"><a href="#" class="text-danger"><i class="fas fa-trash-alt"></i></a></div>
+                                        </div>
+                                    </div>
+                                    <div class="row cart-detail">
+                                        <div class="col-lg-4 col-sm-4 col-4 cart-detail-img">
+                                            <img src="https://static.toiimg.com/thumb/msid-55980052,width-640,resizemode-4/55980052.jpg">
+                                        </div>
+                                        <div class="col-lg-8 col-sm-8 col-8 cart-detail-product">
+                                            <p>Lenovo DSC-RX100M..</p>
+                                            <span class="price text-info"> $445.78</span> <span class="count"> Quantity:01</span>
+                                            <div class="cart-del"><a href="#" class="text-danger"><i class="fas fa-trash-alt"></i></a></div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12 col-sm-12 col-12 text-center checkout">
+                                            <button class="btn btn-dark btn-block">Checkout</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Store locator</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Help</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Wholesale login</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-            </div>
+            </nav>
         </div>
         <div class="container">
             <div class="row">
@@ -872,7 +941,7 @@
                                 <ul class="dropdown">
                                     <li>
                                         <a href="category.jsp?path=-1|11578623|11578643|11586798&amp;id=11586899">
-                                            Canvas Totes <i class="fas fa-chevron-right"></i></a>
+                                            Canvas Totes
                                         </a>
                                     </li>
 
@@ -1180,23 +1249,9 @@
                                     </li>
                                 </ul>
                             </li>
+                            <li class="hide-collapse"><a class="search-switch" href="#"><img src="img/icon/search.png"
+                                        alt=""></a></li>
                         </ul>
-
-                        <!-- <ul>
-                            <li class="active"><a href="./index.html">Home</a></li>
-                            <li><a href="./shop.html">Shop</a></li>
-                            <li><a href="#">Pages</a>
-                                <ul class="dropdown">
-                                    <li><a href="./about.html">About Us</a></li>
-                                    <li><a href="./shop-details.html">Shop Details</a></li>
-                                    <li><a href="./shopping-cart.html">Shopping Cart</a></li>
-                                    <li><a href="./checkout.html">Check Out</a></li>
-                                    <li><a href="./blog-details.html">Blog Details</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="./blog.html">Blog</a></li>
-                            <li><a href="./contact.html">Contacts</a></li>
-                        </ul> -->
                     </nav>
                 </div>
                 <!-- <div class="col-lg-3 col-md-3">
@@ -1799,7 +1854,7 @@
 
     <!-- Js Plugins -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery.nice-select.min.js"></script>
     <script src="js/jquery.nicescroll.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
